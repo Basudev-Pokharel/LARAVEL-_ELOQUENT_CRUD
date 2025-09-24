@@ -15,13 +15,7 @@
     <div class="container d-flex p-2 flex-column justify-content-center align-items-center">
         <h1>Here gonna be crud From Eloquent</h1>
         <h2 class="bg-primary text-light p-2">@yield('heading')</h2>
-        <div class="d-flex justify-content-left align-items-left ">
-            <button type="submit" class="btn btn-success btn-sm mb-2"
-                onclick="location.href='{{ route('students.create') }}'">Add User</button>
-        </div>
-        <div class="row  border border-danger-subtle p-2 rounded-sm">
-            @yield('content')
-        </div>
+        @yield('content')
     </div>
 </body>
 
